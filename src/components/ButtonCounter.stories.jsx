@@ -14,3 +14,11 @@ export const Large = {
         label: 'Click me'
     }
 }
+
+export const Small = {
+    args: {
+        size: 'small',
+        label: 'Click me'
+    }
+}
+
