@@ -1,0 +1,9 @@
+.counter-button--small {
+    font-size: 14px;
+    padding: 10px 16px;
+}
+
+.counter-button--large {
+    font-size: 16px;
+    padding: 12px 24px;
+}
