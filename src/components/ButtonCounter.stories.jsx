@@ -17,6 +17,11 @@ export default {
             controls: 'text',
             table: {defaultValue: {summary: 'Click me'}},
             description: 'Other options include: Press, Enter, Go.'
+        },
+        size: {
+            controls: 'text',
+            table: {defaultValue: {summary: 'small'}},
+            description: 'Other options include: large.'
         }
     }
 }
