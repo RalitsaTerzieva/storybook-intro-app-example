@@ -6,7 +6,18 @@ export default {
     component: ButtonCounter,
     tags: ['autodocs'],
     argTypes: {
-        backgroundColor: {control: 'color'}
+        backgroundColor: {
+            control: 'color',
+            description: 'please change the background color within the yellow spectrum.',
+            table: {
+                defaultValue: {summary: '#bcdb99'}
+            }
+        },
+        label: { 
+            controls: 'text',
+            table: {defaultValue: {summary: 'Click me'}},
+            description: 'Other options include: Press, Enter, Go.'
+        }
     }
 }
 
@@ -23,7 +34,8 @@ export const Large = {
 export const Small = {
     args: {
         size: 'small',
-        label: 'Click me'
+        label: 'Click me',
+        backgroundColor: "#bcdb99"
     }
 }
 
