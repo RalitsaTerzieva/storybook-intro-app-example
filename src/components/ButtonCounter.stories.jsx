@@ -28,6 +28,13 @@ export const Large = {
         size: 'large',
         label: 'Click me',
         backgroundColor: "#bcdb99"
+    },
+    parameters: {
+        docs: {
+            description: {
+                story: 'This is the large button view.'
+            }
+        }
     }
 }
 
@@ -36,6 +43,13 @@ export const Small = {
         size: 'small',
         label: 'Click me',
         backgroundColor: "#bcdb99"
+    },
+    parameters: {
+        docs: {
+            description: {
+                story: 'This is the small button view.'
+            }
+        }
     }
 }
 
