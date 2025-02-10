@@ -11,6 +11,7 @@ export default {
             options: ['counter-button1', 'counter-button2', 'counter-button3'],
             description: 'Choose any of the three options of different styled buttons.'
         },
+        onClick: {action: 'clicked'},
         backgroundColor: {
             control: 'color',
             description: 'please change the background color within the yellow spectrum.',
@@ -39,6 +40,13 @@ export const Large = {
         label: 'Click me',
         backgroundColor: "#bcdb99"
     },
+    argTypes: {
+        buttonVersion: {
+            control: 'select',
+            options: ['counter-button1', 'counter-button2', 'counter-button3'],
+            description: 'Choose any of the three options of different styled buttons.'
+        },
+    },
     parameters: {
         docs: {
             description: {
@@ -53,6 +61,13 @@ export const Small = {
         size: 'small',
         label: 'Click me',
         backgroundColor: "#bcdb99"
+    },
+    argTypes: {
+        buttonVersion: {
+            control: 'select',
+            options: ['counter-button1', 'counter-button2', 'counter-button3'],
+            description: 'Choose any of the three options of different styled buttons.'
+        },
     },
     parameters: {
         docs: {
