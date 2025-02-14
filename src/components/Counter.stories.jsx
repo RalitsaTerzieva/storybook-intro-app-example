@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import { ButtonCounter } from './ButtonCounter';
 import { Counter } from './Counter';
-import {within, userEvent} from '@srotybook/testing-library';
+import { within, userEvent } from "@storybook/test";
+
+
+
 
 export default {
     title: 'Counter/Counter',
@@ -18,7 +21,7 @@ export default {
 }
 
 export const Default = () => {
-    const [count, setCount] = useState(0);
+    const [ setCount] = useState(0);
 
     const handleCount = () => {
         setCount(previousCount => previousCount + 1);
