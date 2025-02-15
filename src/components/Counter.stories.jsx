@@ -4,8 +4,6 @@ import { Counter } from './Counter';
 import { within, userEvent } from "@storybook/test";
 
 
-
-
 export default {
     title: 'Counter/Counter',
     component: Counter,
